@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Мой сайт с музыкой</title>
+		<style>
+		body {
+			background-color: #2F744E;
+			color: white;
+		}
+	</style>
+		<link rel="icon" href="favicon.ico" type="C:\Users\Иван\Desktop\Новая папка (4)\img\фффф.png">
+	<link rel="shortcut icon" href="favicon.ico" type="C:\Users\Иван\Desktop\Новая папка (4)\img\фффф.png">
+</head>
+<head>
+	<title>Отображение картинки</title>
+</head>
+<body>
+	<img src="C:\Users\Иван\Desktop\Новая папка (4)\img\ккк.png" alt="Описание картинки">
+</body>
+	<style>
+		#centered-text {
+			text-align: center; /* центрирование текста */
+			margin-top: 50px; /* расстояние от верхнего края страницы */
+		}
+	</style>
+</head>
+<body>
+	<div id="centered-text" >
+		<h1>Музыка</h1>
+	</div>
+</body>
+<body>
+	<p>Введите ваше имя:</p>
+	<input type="text" id="user-input">
+	<button onclick="enterName()">Привет</button>
+
+	<script>
+		function enterName() {
+			var name = document.getElementById("user-input").value;
+			alert("Привет, " + name + "!");
+		}
+	</script>
+</body>
+
+  <style>
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+
+  </nav>
+
+  <div>
+
+</body>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li><a href="#">Профиль</a></li>
+      <li><div id="user-name"></div></li>
+    </ul>
+  </nav>
+
+  <style>
+    #audio-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+  </style>
+    <style>
+nav {
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+    </style>
+<body onload="playMusic()">
+	<audio id="myAudio">
+		<source src="Calm Cam - TrackTribe.mp3" type="audio/mpeg">
+	</audio>
+
+	<script>
+		function playMusic() {
+			var audio = document.getElementById("myAudio");
+			audio.play();
+		}
+	</script>
+</body>
+  <nav>
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li><a href="#">Профиль</a></li>
+      <li><div id="user-name"></div></li>
+    </ul>
+  </nav>
+  <div>
+
+
+
+<div id="audio-list"></div>
+
+<script>
+const audioUrls = ['Calm Cam - TrackTribe.mp3', 'On The Rocks - TrackTribe.mp3', 'Confident Kurt - TrackTribe.mp3'];
+const audioListDiv = document.getElementById('audio-list');
+
+for (let i = 0; i < audioUrls.length; i++) {
+  const audio = document.createElement('audio');
+  audio.src = audioUrls[i];
+  audio.controls = true;
+  audioListDiv.appendChild(audio);
+}
+</script>
+<div class="centered-text">
+  <p>Это сайт с приятной музыкой</p>
+</div>
+  <style>
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+<img src="C:\Users\Иван\Desktop\Новая папка (4)\img/music_notes_PNG71.png" alt="Описание картинки">
+<div style="background-image: url('C:\Users\Иван\Desktop\Новая папка (4)\img/music_notes_PNG71.png');"></div>
+
+
+</html>
